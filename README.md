@@ -13,7 +13,7 @@ This project is a simple backend application for a bookstore implemented using S
 
 **BookRepository**: Extends JpaRepository for CRUD operations on the Book entity. Includes query methods for finding books by author or title.
 
-**BookService**: Implements business logic for book-related operations such as fetching all books, adding a new book, deleting a book and updating book details. Also includes transactional methods for data consistency.
+**BookService**: Implements business logic for book-related operations.
 
 **BookController**: Defines REST endpoints for handling HTTP requests related to book operations.
 
